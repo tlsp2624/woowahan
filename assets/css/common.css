@@ -1,0 +1,50 @@
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  margin: -1px;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.headline {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.headline .mo {
+  display: none;
+}
+
+.title-box {
+  padding: 0 24px;
+  margin-bottom: 60px;
+  word-break: keep-all;
+}
+
+/* keep-all : 단어 단위로 줄바꿈 - 단어 단위로 줄바꿈을 해준는 속성 
+단어단위로 강제로 줄바꿈을 해준다 */
+
+.title-box .desc {
+  line-height: 1.75;
+}
+
+@media (max-width:750px) {
+  .headline {
+    font-size: 30px;
+  }
+
+  .headline .pc {
+    display: none;
+  }
+
+  .headline .mo {
+    display: block;
+  }
+}
