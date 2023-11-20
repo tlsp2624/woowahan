@@ -388,7 +388,8 @@ body {
 
   /* aside 영역 */
   .header .aside {
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: fixed;
     top: 0;
     left: 0;
@@ -530,7 +531,7 @@ body {
 
   /* on일때 */
   .header .aside.on {
-    display: block;
+    display: flex;
     visibility: visible;
     transform: translateX(0);
     transition: .6s;
@@ -580,16 +581,13 @@ body {
   }
 
   .header .aside .bottom-wrap {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    display: flex;    
     align-items: center;
     justify-content: space-between;
     width: 100%;
     height: auto;
+    margin-top: 50px;
     margin-bottom: 23px;
-    padding: 0 20px;
   }
 
   .header .aside .bottom-wrap .col-left {

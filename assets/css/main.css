@@ -133,7 +133,7 @@
 }
 
 .sc-visual .swiper .text-box .title {
-  font-size: clamp(35px, 3.6458vw, 70px);
+  font-size: clamp(40px, 3.6458vw, 70px);
   ;
   font-family: 'BMDOHYEON';
   margin: 40px 0 60px 0;
